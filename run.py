@@ -3,7 +3,7 @@ from newsapi import NewsApiClient
 
 app = Flask(__name__)
 
-newsapi = NewsApiClient(api_key='70fdb9ba81ba40b6bda148e672898bd9')
+newsapi = NewsApiClient(api_key='YOURNEWSAPIKEY')
 
 def get_sources_and_domains():
     all_sources = newsapi.get_sources()['sources']
